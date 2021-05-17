@@ -1,0 +1,44 @@
+.about .grid {
+    grid-template-columns: 1fr 4fr;
+}
+
+.about-img {
+    border-radius: 50%;
+}
+
+.about-img img {
+    border-radius: 50%;
+}
+
+.about-text {
+    padding-left: 10px;
+}
+
+.about-text h2 {
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+.about-text p {
+    font-size: 1.3em;
+}
+
+.map {
+    /* margin-bottom: 2em; */
+    height: 600px;
+}
+
+.map .container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.slider .card {
+    text-align: center;
+}

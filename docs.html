@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+     crossorigin="anonymous" />
+     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+     <link rel="stylesheet" href="css/utilities.css">
+     <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>DCloud | Cloud Hosting For Everyone</title>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">DCloud.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="features.html">Особливості</a></li>
+                    <li><a href="docs.html">Документація</a></li>
+                    <li><a href="team.html">Команда</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="docs-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="lg">Документація</h1>
+                <p class="lead">Детальна документація по використанню DCloud
+                </p>
+            </div>
+            <img src="images/docs.png" alt="">
+        </div>
+    </section>
+
+    <!-- Docs main -->
+    <section class="docs-main my-4">
+        <div class="container grid">
+            <div class="card bg-light p-3">
+                <h3 class="my-3">Основи</h3>
+                <nav>
+                    <ul>
+                        <li><a class="text-primary" href="#">Введення</a></li>
+                        <li><a href="#">Детальніше про DCloud</a></li>
+                        <li><a href="#">Встановлення</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="my-3">Розгортування</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Налаштування контейнера</a></li>
+                        <li><a href="#">Використання командного рядку</a></li>
+                        <li><a href="#">Управління ресурсами</a></li>
+                        <li><a href="#">Перехід на новішу/старішу версію</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Введення</h2>
+                <p>В даному розділі надається розгортуюча документація по використанню та встановленню технології DCloud. Також в цьому розділі буде наведено список необхідних параметрів для коренктної роботи сервісу</p>
+                <div class="alert alert-success">
+                    <i class="fas fa-info"></i>
+                   Тип становлення може відрізнятись в залежності від вашої ОС
+                </div>
+
+                <h3>Мультиплатформенний Командний Рядок</h3>
+                <p>
+                    Командний рядок став невід'ємною частиною розробки, якою повинен уміти користуватись будь-який поважаючий себе розробник. 
+                    Наший командний рядок є не залежним від платформи на якій планується розгортати додаток.
+                </p>
+                <a href="#" class="btn btn-primary">Встановити CLI</a>
+
+                <h3>Вимоги</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Windows 10, Mac OSX, Linux</li>
+                    <li><i class="fas fa-check-circle"></i> Node.js v12 or higher</li>
+                </ul>
+
+                <h3>Встановлення</h3>
+                <p>Mac (Homebrew)</p>
+                <pre><code>$ brew install dcloud-cli</code></pre>
+                <p>NPM</p>
+                <pre><code>$ npm install dcloud-cli</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install dcloud-cli</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section class="video my-4">
+        <div class="container flex">
+            <!-- <h2>
+                В разі відсутності досвіду в роботі з npm радимо переглянути дане відео
+            </h2> -->
+            <div class="alert alert-success">
+                <i class="fas fa-info"></i>
+                В разі відсутності досвіду в роботі з npm радимо переглянути дане відео
+            </div>
+            <div class="video-wrapper py-3">
+                <iframe src="https://www.youtube.com/embed/2V1UUhBJ62Y" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>DCloud</h1>
+                <p>S. Droniv &copy; 2021</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="features.html">Особливості</a></li>
+                    <li><a href="docs.html">Документація</a></li>
+                </ul>
+            </nav>
+            <div class="social"><a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
